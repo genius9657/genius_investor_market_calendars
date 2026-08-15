@@ -19,7 +19,7 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Start open-source trading calendar API
         run: |
@@ -43,7 +43,7 @@ jobs:
       - name: Generate calendars
         run: python3 scripts/generate_market_calendars.py
 
-      - name: Validate Korea substitute holiday
+      - name: Validate generated calendar
         run: |
           python3 - <<'PY'
           import json

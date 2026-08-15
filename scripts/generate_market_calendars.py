@@ -36,6 +36,10 @@ MARKETS = {
     "euronext": {"mic": "XPAR", "timezone": "Europe/Paris"},
 }
 
+# The upstream API accepts at most 366 days between `start` and `end`.
+# Keep each request comfortably inside that limit and merge the results.
+MAX_REQUEST_SPAN_DAYS = 365
+
 
 def request_json(path: str, query: dict[str, str]) -> object:
     url = f"{API_BASE_URL}{path}?{urllib.parse.urlencode(query)}"
@@ -55,6 +59,35 @@ def request_json(path: str, query: dict[str, str]) -> object:
                 time.sleep(attempt * 2)
 
     raise RuntimeError(f"Calendar request failed: {url}: {last_error}")
+
+
+def request_holidays(mic: str, start: date, end: date) -> list[object]:
+    """Fetch a long date range in API-safe chunks."""
+    items: list[object] = []
+    cursor = start
+
+    while cursor <= end:
+        chunk_end = min(
+            cursor + timedelta(days=MAX_REQUEST_SPAN_DAYS),
+            end,
+        )
+        raw = request_json(
+            "/api/v1/markets/holidays",
+            {
+                "mic": mic,
+                "start": cursor.isoformat(),
+                "end": chunk_end.isoformat(),
+            },
+        )
+        if not isinstance(raw, list):
+            raise RuntimeError(
+                f"Unexpected response for {mic} "
+                f"({cursor.isoformat()} to {chunk_end.isoformat()}): {raw!r}"
+            )
+        items.extend(raw)
+        cursor = chunk_end + timedelta(days=1)
+
+    return items
 
 
 def time_part(value: object) -> str:
@@ -111,26 +144,22 @@ def generate() -> dict[str, object]:
 
     for market_id, definition in MARKETS.items():
         mic = definition["mic"]
-        raw = request_json(
-            "/api/v1/markets/holidays",
-            {
-                "mic": mic,
-                "start": start.isoformat(),
-                "end": end.isoformat(),
-            },
-        )
+        raw = request_holidays(mic, start, end)
 
-        if not isinstance(raw, list):
-            raise RuntimeError(f"Unexpected response for {mic}: {raw!r}")
-
-        holidays = []
+        holidays_by_key: dict[tuple[str, str, bool], dict[str, object]] = {}
         for raw_item in raw:
             if not isinstance(raw_item, dict):
                 continue
             normalized = normalize_holiday(raw_item)
             if normalized is not None:
-                holidays.append(normalized)
+                key = (
+                    str(normalized["atDate"]),
+                    str(normalized["eventName"]),
+                    bool(normalized["isEarlyClose"]),
+                )
+                holidays_by_key[key] = normalized
 
+        holidays = list(holidays_by_key.values())
         holidays.sort(key=lambda item: str(item["atDate"]))
         markets[market_id] = {
             "mic": mic,
