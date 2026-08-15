@@ -1,10 +1,1463 @@
 {
   "schemaVersion": 1,
-  "generatedAt": null,
+  "generatedAt": "2026-08-15T08:34:57.825425+00:00",
   "range": {
-    "start": null,
-    "end": null
+    "start": "2026-07-01",
+    "end": "2028-08-14"
   },
-  "source": "waiting-for-first-github-action-run",
-  "markets": {}
+  "source": "apptastic-software/trading-calendar",
+  "markets": {
+    "usa": {
+      "mic": "XNYS",
+      "timezone": "America/New_York",
+      "data": [
+        {
+          "atDate": "2026-07-03",
+          "eventName": "July 4th",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-09-07",
+          "eventName": "Labor Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-11-26",
+          "eventName": "Thanksgiving",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-11-27",
+          "eventName": "Black Friday",
+          "tradingHour": "09:30-13:00",
+          "isEarlyClose": true
+        },
+        {
+          "atDate": "2026-12-24",
+          "eventName": "Christmas Eve",
+          "tradingHour": "09:30-13:00",
+          "isEarlyClose": true
+        },
+        {
+          "atDate": "2026-12-25",
+          "eventName": "Christmas",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-01-01",
+          "eventName": "New Year's Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-01-18",
+          "eventName": "Dr. Martin Luther King Jr. Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-02-15",
+          "eventName": "President's Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-03-26",
+          "eventName": "Good Friday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-05-31",
+          "eventName": "Memorial Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-06-18",
+          "eventName": "Juneteenth National Independence Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-07-05",
+          "eventName": "July 4th",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-09-06",
+          "eventName": "Labor Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-11-25",
+          "eventName": "Thanksgiving",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-11-26",
+          "eventName": "Black Friday",
+          "tradingHour": "09:30-13:00",
+          "isEarlyClose": true
+        },
+        {
+          "atDate": "2027-12-24",
+          "eventName": "Christmas",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-01-17",
+          "eventName": "Dr. Martin Luther King Jr. Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-02-21",
+          "eventName": "President's Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-04-14",
+          "eventName": "Good Friday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-05-29",
+          "eventName": "Memorial Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-06-19",
+          "eventName": "Juneteenth National Independence Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-07-03",
+          "eventName": "Mondays, Tuesdays, and Thursdays Before Independence Day",
+          "tradingHour": "09:30-13:00",
+          "isEarlyClose": true
+        },
+        {
+          "atDate": "2028-07-04",
+          "eventName": "July 4th",
+          "tradingHour": "",
+          "isEarlyClose": false
+        }
+      ]
+    },
+    "korea": {
+      "mic": "XKRX",
+      "timezone": "Asia/Seoul",
+      "data": [
+        {
+          "atDate": "2026-08-17",
+          "eventName": "National Liberation Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-09-24",
+          "eventName": "Chuseok (Korean Thanksgiving Day) (-1 day)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-09-25",
+          "eventName": "Chuseok (Korean Thanksgiving Day)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-10-05",
+          "eventName": "Korean National Foundation Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-10-09",
+          "eventName": "Hangul Proclamation Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-12-25",
+          "eventName": "Christmas",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-12-31",
+          "eventName": "End of Year Holiday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-01-01",
+          "eventName": "New Year's Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-02-08",
+          "eventName": "Seollal (New Year's Day by the lunar)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-02-09",
+          "eventName": "Seollal (New Year's Day by the lunar) (+1 day)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-03-01",
+          "eventName": "Independence Movement Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-05-05",
+          "eventName": "Children's Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-05-13",
+          "eventName": "Buddha's Birthday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-08-16",
+          "eventName": "National Liberation Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-09-14",
+          "eventName": "Chuseok (Korean Thanksgiving Day) (-1 day)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-09-15",
+          "eventName": "Chuseok (Korean Thanksgiving Day)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-09-16",
+          "eventName": "Chuseok (Korean Thanksgiving Day) (+1 day)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-10-04",
+          "eventName": "Korean National Foundation Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-10-11",
+          "eventName": "Hangul Proclamation Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-12-27",
+          "eventName": "Alternative holiday for Christmas Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-12-31",
+          "eventName": "End of Year Holiday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-01-26",
+          "eventName": "Seollal (New Year's Day by the lunar) (-1 day)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-01-27",
+          "eventName": "Seollal (New Year's Day by the lunar)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-01-28",
+          "eventName": "Seollal (New Year's Day by the lunar) (+1 day)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-03-01",
+          "eventName": "Independence Movement Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-05-01",
+          "eventName": "Labor Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-05-02",
+          "eventName": "Buddha's Birthday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-05-05",
+          "eventName": "Children's Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-06-06",
+          "eventName": "Memorial Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        }
+      ]
+    },
+    "japan": {
+      "mic": "XTKS",
+      "timezone": "Asia/Tokyo",
+      "data": [
+        {
+          "atDate": "2026-07-20",
+          "eventName": "Marine Day (2022 onwards)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-08-11",
+          "eventName": "Mountain Day (2022 onwards)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-09-21",
+          "eventName": "Respect for the Aged Day (2003 onwards)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-09-22",
+          "eventName": "National Holiday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-09-23",
+          "eventName": "Autumnal Equinox Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-10-12",
+          "eventName": "Health and Sports Day (2022 onwards)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-11-03",
+          "eventName": "Culture Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-11-23",
+          "eventName": "Labor Thanksgiving Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-12-31",
+          "eventName": "New Year's Holiday (Dec 31)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-01-01",
+          "eventName": "New Year's Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-01-11",
+          "eventName": "Coming of Age Day (2000 onwards)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-02-11",
+          "eventName": "National Foundation Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-02-23",
+          "eventName": "Emperor Naruhito's Birthday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-03-22",
+          "eventName": "Substitute Holiday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-04-29",
+          "eventName": "Showa Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-05-03",
+          "eventName": "Constitution Memorial Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-05-04",
+          "eventName": "Greenery Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-05-05",
+          "eventName": "Children's Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-07-19",
+          "eventName": "Marine Day (2022 onwards)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-08-11",
+          "eventName": "Mountain Day (2022 onwards)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-09-20",
+          "eventName": "Respect for the Aged Day (2003 onwards)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-09-23",
+          "eventName": "Autumnal Equinox Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-10-11",
+          "eventName": "Health and Sports Day (2022 onwards)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-11-03",
+          "eventName": "Culture Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-11-23",
+          "eventName": "Labor Thanksgiving Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-12-31",
+          "eventName": "New Year's Holiday (Dec 31)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-01-03",
+          "eventName": "New Year's Holiday (Jan 3)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-01-10",
+          "eventName": "Coming of Age Day (2000 onwards)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-02-11",
+          "eventName": "National Foundation Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-02-23",
+          "eventName": "Emperor Naruhito's Birthday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-03-20",
+          "eventName": "Vernal Equinox Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-05-03",
+          "eventName": "Constitution Memorial Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-05-04",
+          "eventName": "Greenery Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-05-05",
+          "eventName": "Children's Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-07-17",
+          "eventName": "Marine Day (2022 onwards)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-08-11",
+          "eventName": "Mountain Day (2022 onwards)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        }
+      ]
+    },
+    "uk": {
+      "mic": "XLON",
+      "timezone": "Europe/London",
+      "data": [
+        {
+          "atDate": "2026-08-31",
+          "eventName": "Summer Bank Holiday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-12-24",
+          "eventName": "Christmas Eve",
+          "tradingHour": "08:00-12:30",
+          "isEarlyClose": true
+        },
+        {
+          "atDate": "2026-12-25",
+          "eventName": "Christmas",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-12-28",
+          "eventName": "Weekend Boxing Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-12-31",
+          "eventName": "New Year's Eve",
+          "tradingHour": "08:00-12:30",
+          "isEarlyClose": true
+        },
+        {
+          "atDate": "2027-01-01",
+          "eventName": "New Year's Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-03-26",
+          "eventName": "Good Friday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-03-29",
+          "eventName": "Easter Monday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-05-03",
+          "eventName": "Early May Bank Holiday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-05-31",
+          "eventName": "Spring Bank Holiday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-08-30",
+          "eventName": "Summer Bank Holiday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-12-24",
+          "eventName": "Christmas Eve",
+          "tradingHour": "08:00-12:30",
+          "isEarlyClose": true
+        },
+        {
+          "atDate": "2027-12-27",
+          "eventName": "Weekend Christmas",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-12-28",
+          "eventName": "Weekend Boxing Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-12-31",
+          "eventName": "New Year's Eve",
+          "tradingHour": "08:00-12:30",
+          "isEarlyClose": true
+        },
+        {
+          "atDate": "2028-01-03",
+          "eventName": "New Year's Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-04-14",
+          "eventName": "Good Friday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-04-17",
+          "eventName": "Easter Monday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-05-01",
+          "eventName": "Early May Bank Holiday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-05-29",
+          "eventName": "Spring Bank Holiday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        }
+      ]
+    },
+    "hong_kong": {
+      "mic": "XHKG",
+      "timezone": "Asia/Hong_Kong",
+      "data": [
+        {
+          "atDate": "2026-07-01",
+          "eventName": "Hong Kong Special Region Establishment Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-10-01",
+          "eventName": "National Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-10-19",
+          "eventName": "Double Ninth Festival (observed)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-12-24",
+          "eventName": "Christmas Eve",
+          "tradingHour": "10:00-12:00",
+          "isEarlyClose": true
+        },
+        {
+          "atDate": "2026-12-25",
+          "eventName": "Christmas",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-12-31",
+          "eventName": "New Year's Eve",
+          "tradingHour": "10:00-12:00",
+          "isEarlyClose": true
+        },
+        {
+          "atDate": "2027-01-01",
+          "eventName": "New Year's Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-02-05",
+          "eventName": "Early Close",
+          "tradingHour": "10:00-12:00",
+          "isEarlyClose": true
+        },
+        {
+          "atDate": "2027-02-08",
+          "eventName": "The third day of Chinese New Year",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-02-09",
+          "eventName": "The fourth day of Chinese New Year",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-03-26",
+          "eventName": "Good Friday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-03-29",
+          "eventName": "Easter Monday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-04-05",
+          "eventName": "Tomb-Sweeping Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-05-13",
+          "eventName": "The Buddha's Birthday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-06-09",
+          "eventName": "Dragon Boat Festival",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-07-01",
+          "eventName": "Hong Kong Special Region Establishment Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-09-16",
+          "eventName": "The Day following Mid-Autumn Festival",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-10-01",
+          "eventName": "National Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-10-08",
+          "eventName": "Double Ninth Festival",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-12-24",
+          "eventName": "Christmas Eve",
+          "tradingHour": "10:00-12:00",
+          "isEarlyClose": true
+        },
+        {
+          "atDate": "2027-12-27",
+          "eventName": "Weekend Christmas",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-12-31",
+          "eventName": "New Year's Eve",
+          "tradingHour": "10:00-12:00",
+          "isEarlyClose": true
+        },
+        {
+          "atDate": "2028-01-25",
+          "eventName": "Early Close",
+          "tradingHour": "10:00-12:00",
+          "isEarlyClose": true
+        },
+        {
+          "atDate": "2028-01-26",
+          "eventName": "Chinese New Year",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-01-27",
+          "eventName": "The second day of Chinese New Year",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-01-28",
+          "eventName": "The third day of Chinese New Year",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-04-04",
+          "eventName": "Tomb-Sweeping Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-04-14",
+          "eventName": "Good Friday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-04-17",
+          "eventName": "Easter Monday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-05-01",
+          "eventName": "Labour Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-05-02",
+          "eventName": "The Buddha's Birthday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-05-29",
+          "eventName": "Dragon Boat Festival (observed)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        }
+      ]
+    },
+    "canada": {
+      "mic": "XTSE",
+      "timezone": "America/Toronto",
+      "data": [
+        {
+          "atDate": "2026-07-01",
+          "eventName": "Canada Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-08-03",
+          "eventName": "Civic Holiday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-09-07",
+          "eventName": "Labor Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-10-12",
+          "eventName": "Canadian Thanksgiving",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-12-24",
+          "eventName": "Christmas Eve Early Close",
+          "tradingHour": "09:30-13:00",
+          "isEarlyClose": true
+        },
+        {
+          "atDate": "2026-12-25",
+          "eventName": "Christmas",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-12-28",
+          "eventName": "Weekend Boxing Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-01-01",
+          "eventName": "New Year's Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-02-15",
+          "eventName": "Family Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-03-26",
+          "eventName": "Good Friday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-05-24",
+          "eventName": "Victoria Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-07-01",
+          "eventName": "Canada Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-08-02",
+          "eventName": "Civic Holiday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-09-06",
+          "eventName": "Labor Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-10-11",
+          "eventName": "Canadian Thanksgiving",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-12-24",
+          "eventName": "Christmas Eve Early Close",
+          "tradingHour": "09:30-13:00",
+          "isEarlyClose": true
+        },
+        {
+          "atDate": "2027-12-27",
+          "eventName": "Weekend Christmas",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-12-28",
+          "eventName": "Weekend Boxing Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-01-03",
+          "eventName": "New Year's Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-02-21",
+          "eventName": "Family Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-04-14",
+          "eventName": "Good Friday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-05-22",
+          "eventName": "Victoria Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-07-03",
+          "eventName": "Canada Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-08-07",
+          "eventName": "Civic Holiday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        }
+      ]
+    },
+    "germany": {
+      "mic": "XETR",
+      "timezone": "Europe/Berlin",
+      "data": [
+        {
+          "atDate": "2026-12-24",
+          "eventName": "Christmas Eve",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-12-25",
+          "eventName": "Christmas",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-12-30",
+          "eventName": "Last Working Day of Year Early Close",
+          "tradingHour": "09:00-14:00",
+          "isEarlyClose": true
+        },
+        {
+          "atDate": "2026-12-31",
+          "eventName": "New Year's Eve",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-01-01",
+          "eventName": "New Year's Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-03-26",
+          "eventName": "Good Friday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-03-29",
+          "eventName": "Easter Monday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-12-24",
+          "eventName": "Christmas Eve",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-12-30",
+          "eventName": "Last Working Day of Year Early Close",
+          "tradingHour": "09:00-14:00",
+          "isEarlyClose": true
+        },
+        {
+          "atDate": "2027-12-31",
+          "eventName": "New Year's Eve",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-04-14",
+          "eventName": "Good Friday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-04-17",
+          "eventName": "Easter Monday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-05-01",
+          "eventName": "Labour Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        }
+      ]
+    },
+    "china": {
+      "mic": "XSHG",
+      "timezone": "Asia/Shanghai",
+      "data": [
+        {
+          "atDate": "2026-09-25",
+          "eventName": "Mid-Autumn Festival",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-10-01",
+          "eventName": "National Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-10-02",
+          "eventName": "National Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-10-05",
+          "eventName": "National Day (observed)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-10-06",
+          "eventName": "Day off (substituted from 09/20/2026)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-10-07",
+          "eventName": "Day off (substituted from 10/10/2026)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        }
+      ]
+    },
+    "india": {
+      "mic": "XBOM",
+      "timezone": "Asia/Kolkata",
+      "data": [
+        {
+          "atDate": "2026-09-14",
+          "eventName": "Market Holiday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-10-02",
+          "eventName": "Mahatma Gandhi's Birthday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-10-20",
+          "eventName": "Dussehra",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-11-10",
+          "eventName": "Vishwakarma Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-11-24",
+          "eventName": "Guru Nanak's Birthday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-12-25",
+          "eventName": "Christmas",
+          "tradingHour": "",
+          "isEarlyClose": false
+        }
+      ]
+    },
+    "taiwan": {
+      "mic": "XTAI",
+      "timezone": "Asia/Taipei",
+      "data": [
+        {
+          "atDate": "2026-09-25",
+          "eventName": "Mid-Autumn Festival",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-09-28",
+          "eventName": "Teachers' Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-10-09",
+          "eventName": "National Day of the Republic of China",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-10-26",
+          "eventName": "Taiwan Restoration Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-12-25",
+          "eventName": "Constitution Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-01-01",
+          "eventName": "New Year's Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-02-04",
+          "eventName": "Chinese New Year's Eve",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-02-05",
+          "eventName": "Chinese New Year's Eve",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-02-08",
+          "eventName": "Chinese New Year",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-02-09",
+          "eventName": "Chinese New Year (observed)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-02-10",
+          "eventName": "Chinese New Year (observed)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-03-01",
+          "eventName": "Peace Memorial Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-04-05",
+          "eventName": "Women and Children's Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-04-30",
+          "eventName": "Labour Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-06-09",
+          "eventName": "Dragon Boat Festival",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-09-15",
+          "eventName": "Mid-Autumn Festival",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-09-28",
+          "eventName": "Teachers' Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-10-11",
+          "eventName": "National Day of the Republic of China",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-10-25",
+          "eventName": "Taiwan Restoration Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-12-31",
+          "eventName": "New Year's Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-01-24",
+          "eventName": "Chinese New Year's Eve",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-01-25",
+          "eventName": "Chinese New Year's Eve",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-01-26",
+          "eventName": "Chinese New Year",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-01-27",
+          "eventName": "Chinese New Year",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-01-28",
+          "eventName": "Chinese New Year",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-02-28",
+          "eventName": "Peace Memorial Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-04-03",
+          "eventName": "Children's Day (observed)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-04-04",
+          "eventName": "Women and Children's Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-05-01",
+          "eventName": "Labour Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-05-29",
+          "eventName": "Dragon Boat Festival (observed)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        }
+      ]
+    },
+    "euronext": {
+      "mic": "XPAR",
+      "timezone": "Europe/Paris",
+      "data": [
+        {
+          "atDate": "2026-12-24",
+          "eventName": "Christmas Eve",
+          "tradingHour": "09:00-14:05",
+          "isEarlyClose": true
+        },
+        {
+          "atDate": "2026-12-25",
+          "eventName": "Christmas",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2026-12-31",
+          "eventName": "New Year's Eve",
+          "tradingHour": "09:00-14:05",
+          "isEarlyClose": true
+        },
+        {
+          "atDate": "2027-01-01",
+          "eventName": "New Year's Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-03-26",
+          "eventName": "Good Friday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-03-29",
+          "eventName": "Easter Monday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-12-24",
+          "eventName": "Christmas Eve",
+          "tradingHour": "09:00-14:05",
+          "isEarlyClose": true
+        },
+        {
+          "atDate": "2027-12-31",
+          "eventName": "New Year's Eve",
+          "tradingHour": "09:00-14:05",
+          "isEarlyClose": true
+        },
+        {
+          "atDate": "2028-04-14",
+          "eventName": "Good Friday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-04-17",
+          "eventName": "Easter Monday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-05-01",
+          "eventName": "Labour Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        }
+      ]
+    }
+  }
 }
