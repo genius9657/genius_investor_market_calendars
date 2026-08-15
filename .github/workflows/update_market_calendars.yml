@@ -1,0 +1,79 @@
+name: Update global market calendars
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 1 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-market-calendars
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Start open-source trading calendar API
+        run: |
+          docker run --detach \
+            --name trading-calendar \
+            --publish 8000:80 \
+            ghcr.io/apptastic-software/trading-calendar:latest
+
+      - name: Wait for calendar API
+        run: |
+          for attempt in $(seq 1 60); do
+            if curl --fail --silent http://127.0.0.1:8000/api/v1/version >/dev/null; then
+              echo "Trading Calendar API is ready"
+              exit 0
+            fi
+            sleep 2
+          done
+          docker logs trading-calendar
+          exit 1
+
+      - name: Generate calendars
+        run: python3 scripts/generate_market_calendars.py
+
+      - name: Validate Korea substitute holiday
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          payload = json.loads(Path("data/market_calendars.json").read_text())
+          markets = payload.get("markets", {})
+          required = {
+              "usa", "korea", "japan", "uk", "hong_kong", "canada",
+              "germany", "china", "india", "taiwan", "euronext",
+          }
+          missing = sorted(required.difference(markets))
+          if missing:
+              raise SystemExit(f"Missing markets: {missing}")
+
+          if payload.get("range", {}).get("start") is None:
+              raise SystemExit("Calendar range is missing")
+
+          print("Calendar schema and market coverage validated")
+          PY
+
+      - name: Commit updated calendar data
+        run: |
+          if git diff --quiet -- data/market_calendars.json; then
+            echo "Calendar data is already current"
+            exit 0
+          fi
+
+          git config user.name "genius-calendar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/market_calendars.json
+          git commit -m "chore: update global market calendars"
+          git push
