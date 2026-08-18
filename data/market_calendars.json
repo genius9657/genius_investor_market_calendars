@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-17T04:06:44.978207+00:00",
+  "generatedAt": "2026-08-18T03:33:07.517955+00:00",
   "range": {
-    "start": "2026-07-03",
-    "end": "2028-08-16"
+    "start": "2026-07-04",
+    "end": "2028-08-17"
   },
   "source": "apptastic-software/trading-calendar",
   "markets": {
@@ -11,12 +11,6 @@
       "mic": "XNYS",
       "timezone": "America/New_York",
       "data": [
-        {
-          "atDate": "2026-07-03",
-          "eventName": "July 4th",
-          "tradingHour": "",
-          "isEarlyClose": false
-        },
         {
           "atDate": "2026-09-07",
           "eventName": "Labor Day",
