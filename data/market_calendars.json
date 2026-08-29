@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-28T07:02:08.281659+00:00",
+  "generatedAt": "2026-08-29T01:23:44.573067+00:00",
   "range": {
-    "start": "2026-07-14",
-    "end": "2028-08-27"
+    "start": "2026-07-15",
+    "end": "2028-08-28"
   },
   "source": "apptastic-software/trading-calendar",
   "markets": {
@@ -680,6 +680,12 @@
         {
           "atDate": "2028-05-29",
           "eventName": "Spring Bank Holiday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-08-28",
+          "eventName": "Summer Bank Holiday",
           "tradingHour": "",
           "isEarlyClose": false
         }
