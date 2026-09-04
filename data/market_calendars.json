@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-03T01:31:52.400131+00:00",
+  "generatedAt": "2026-09-04T01:26:06.004326+00:00",
   "range": {
-    "start": "2026-07-20",
-    "end": "2028-09-02"
+    "start": "2026-07-21",
+    "end": "2028-09-03"
   },
   "source": "apptastic-software/trading-calendar",
   "markets": {
@@ -341,12 +341,6 @@
       "mic": "XTKS",
       "timezone": "Asia/Tokyo",
       "data": [
-        {
-          "atDate": "2026-07-20",
-          "eventName": "Marine Day (2022 onwards)",
-          "tradingHour": "",
-          "isEarlyClose": false
-        },
         {
           "atDate": "2026-08-11",
           "eventName": "Mountain Day (2022 onwards)",
