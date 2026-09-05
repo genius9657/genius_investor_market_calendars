@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-04T01:26:06.004326+00:00",
+  "generatedAt": "2026-09-05T01:26:27.868273+00:00",
   "range": {
-    "start": "2026-07-21",
-    "end": "2028-09-03"
+    "start": "2026-07-22",
+    "end": "2028-09-04"
   },
   "source": "apptastic-software/trading-calendar",
   "markets": {
@@ -146,6 +146,12 @@
         {
           "atDate": "2028-07-04",
           "eventName": "July 4th",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-09-04",
+          "eventName": "Labor Day",
           "tradingHour": "",
           "isEarlyClose": false
         }
@@ -1016,6 +1022,12 @@
         {
           "atDate": "2028-08-07",
           "eventName": "Civic Holiday",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-09-04",
+          "eventName": "Labor Day",
           "tradingHour": "",
           "isEarlyClose": false
         }
