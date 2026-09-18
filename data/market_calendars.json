@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-17T06:11:00.697904+00:00",
+  "generatedAt": "2026-09-18T05:58:31.338033+00:00",
   "range": {
-    "start": "2026-08-03",
-    "end": "2028-09-16"
+    "start": "2026-08-04",
+    "end": "2028-09-17"
   },
   "source": "apptastic-software/trading-calendar",
   "markets": {
@@ -887,12 +887,6 @@
       "mic": "XTSE",
       "timezone": "America/Toronto",
       "data": [
-        {
-          "atDate": "2026-08-03",
-          "eventName": "Civic Holiday",
-          "tradingHour": "",
-          "isEarlyClose": false
-        },
         {
           "atDate": "2026-09-07",
           "eventName": "Labor Day",
