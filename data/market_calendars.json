@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T05:58:31.338033+00:00",
+  "generatedAt": "2026-09-19T05:57:36.316383+00:00",
   "range": {
-    "start": "2026-08-04",
-    "end": "2028-09-17"
+    "start": "2026-08-05",
+    "end": "2028-09-18"
   },
   "source": "apptastic-software/trading-calendar",
   "markets": {
@@ -554,6 +554,12 @@
         {
           "atDate": "2028-08-11",
           "eventName": "Mountain Day (2022 onwards)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-09-18",
+          "eventName": "Respect for the Aged Day (2003 onwards)",
           "tradingHour": "",
           "isEarlyClose": false
         }
