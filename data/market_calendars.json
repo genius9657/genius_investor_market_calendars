@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T06:18:08.493512+00:00",
+  "generatedAt": "2026-09-23T06:02:05.289072+00:00",
   "range": {
-    "start": "2026-08-08",
-    "end": "2028-09-21"
+    "start": "2026-08-09",
+    "end": "2028-09-22"
   },
   "source": "apptastic-software/trading-calendar",
   "markets": {
@@ -560,6 +560,12 @@
         {
           "atDate": "2028-09-18",
           "eventName": "Respect for the Aged Day (2003 onwards)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-09-22",
+          "eventName": "Autumnal Equinox Day",
           "tradingHour": "",
           "isEarlyClose": false
         }
