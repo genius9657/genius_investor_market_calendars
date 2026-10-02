@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T07:13:06.732610+00:00",
+  "generatedAt": "2026-10-02T07:02:58.474069+00:00",
   "range": {
-    "start": "2026-08-17",
-    "end": "2028-09-30"
+    "start": "2026-08-18",
+    "end": "2028-10-01"
   },
   "source": "apptastic-software/trading-calendar",
   "markets": {
@@ -161,12 +161,6 @@
       "mic": "XKRX",
       "timezone": "Asia/Seoul",
       "data": [
-        {
-          "atDate": "2026-08-17",
-          "eventName": "National Liberation Day",
-          "tradingHour": "",
-          "isEarlyClose": false
-        },
         {
           "atDate": "2026-09-24",
           "eventName": "Chuseok (Korean Thanksgiving Day) (-1 day)",
