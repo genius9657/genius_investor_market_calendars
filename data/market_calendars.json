@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T07:02:58.474069+00:00",
+  "generatedAt": "2026-10-03T06:35:57.091519+00:00",
   "range": {
-    "start": "2026-08-18",
-    "end": "2028-10-01"
+    "start": "2026-08-19",
+    "end": "2028-10-02"
   },
   "source": "apptastic-software/trading-calendar",
   "markets": {
@@ -332,6 +332,12 @@
         {
           "atDate": "2028-08-15",
           "eventName": "National Liberation Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-10-02",
+          "eventName": "Chuseok (Korean Thanksgiving Day) (-1 day)",
           "tradingHour": "",
           "isEarlyClose": false
         }
@@ -878,6 +884,12 @@
         {
           "atDate": "2028-05-29",
           "eventName": "Dragon Boat Festival (observed)",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-10-02",
+          "eventName": "National Day",
           "tradingHour": "",
           "isEarlyClose": false
         }
