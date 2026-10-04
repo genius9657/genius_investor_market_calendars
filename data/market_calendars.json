@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T06:35:57.091519+00:00",
+  "generatedAt": "2026-10-04T06:59:14.148185+00:00",
   "range": {
-    "start": "2026-08-19",
-    "end": "2028-10-02"
+    "start": "2026-08-20",
+    "end": "2028-10-03"
   },
   "source": "apptastic-software/trading-calendar",
   "markets": {
@@ -1394,6 +1394,12 @@
         {
           "atDate": "2028-09-28",
           "eventName": "Teachers' Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2028-10-03",
+          "eventName": "Mid-Autumn Festival",
           "tradingHour": "",
           "isEarlyClose": false
         }
