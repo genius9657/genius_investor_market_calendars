@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T07:12:17.016509+00:00",
+  "generatedAt": "2026-10-31T07:01:46.022049+00:00",
   "range": {
-    "start": "2026-09-15",
-    "end": "2028-10-29"
+    "start": "2026-09-16",
+    "end": "2028-10-30"
   },
   "source": "apptastic-software/trading-calendar",
   "markets": {
