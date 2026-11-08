@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-07T07:15:00.737447+00:00",
+  "generatedAt": "2026-11-08T07:26:19.879906+00:00",
   "range": {
-    "start": "2026-09-23",
-    "end": "2028-11-06"
+    "start": "2026-09-24",
+    "end": "2028-11-07"
   },
   "source": "apptastic-software/trading-calendar",
   "markets": {
@@ -359,12 +359,6 @@
       "mic": "XTKS",
       "timezone": "Asia/Tokyo",
       "data": [
-        {
-          "atDate": "2026-09-23",
-          "eventName": "Autumnal Equinox Day",
-          "tradingHour": "",
-          "isEarlyClose": false
-        },
         {
           "atDate": "2026-10-12",
           "eventName": "Health and Sports Day (2022 onwards)",
