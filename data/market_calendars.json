@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T08:23:17.225643+00:00",
+  "generatedAt": "2026-11-13T08:03:48.717100+00:00",
   "range": {
-    "start": "2026-09-28",
-    "end": "2028-11-11"
+    "start": "2026-09-29",
+    "end": "2028-11-12"
   },
   "source": "apptastic-software/trading-calendar",
   "markets": {
@@ -1199,12 +1199,6 @@
       "mic": "XTAI",
       "timezone": "Asia/Taipei",
       "data": [
-        {
-          "atDate": "2026-09-28",
-          "eventName": "Teachers' Day",
-          "tradingHour": "",
-          "isEarlyClose": false
-        },
         {
           "atDate": "2026-10-09",
           "eventName": "National Day of the Republic of China",
