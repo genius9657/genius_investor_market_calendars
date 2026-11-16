@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-15T07:54:31.309269+00:00",
+  "generatedAt": "2026-11-16T08:02:05.516752+00:00",
   "range": {
-    "start": "2026-10-01",
-    "end": "2028-11-14"
+    "start": "2026-10-02",
+    "end": "2028-11-15"
   },
   "source": "apptastic-software/trading-calendar",
   "markets": {
@@ -200,6 +200,12 @@
         {
           "atDate": "2027-03-01",
           "eventName": "Independence Movement Day",
+          "tradingHour": "",
+          "isEarlyClose": false
+        },
+        {
+          "atDate": "2027-05-03",
+          "eventName": "Labor Day",
           "tradingHour": "",
           "isEarlyClose": false
         },
@@ -690,12 +696,6 @@
       "timezone": "Asia/Hong_Kong",
       "data": [
         {
-          "atDate": "2026-10-01",
-          "eventName": "National Day",
-          "tradingHour": "",
-          "isEarlyClose": false
-        },
-        {
           "atDate": "2026-10-19",
           "eventName": "Double Ninth Festival (observed)",
           "tradingHour": "",
@@ -1128,12 +1128,6 @@
       "timezone": "Asia/Shanghai",
       "data": [
         {
-          "atDate": "2026-10-01",
-          "eventName": "National Day",
-          "tradingHour": "",
-          "isEarlyClose": false
-        },
-        {
           "atDate": "2026-10-02",
           "eventName": "National Day",
           "tradingHour": "",
@@ -1177,7 +1171,7 @@
         },
         {
           "atDate": "2026-11-10",
-          "eventName": "Vishwakarma Day",
+          "eventName": "Govardhan Puja",
           "tradingHour": "",
           "isEarlyClose": false
         },
